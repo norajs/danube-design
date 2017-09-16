@@ -1,0 +1,40 @@
+.col-12 {
+    margin:0px;
+    padding:0px;
+}
+
+.navbar {
+    background-color: white;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.navbar-brand {
+    padding-left: 0px;
+    padding-right:0px;
+    margin-right:0px;
+}
+
+.navbar-toggler {
+    margin-top: 13px;
+    border: none;   
+}
+
+.navbar-toggler:actibe {
+    border:none;
+}
+
+#logo {
+    margin-right: 5px;
+}
+
+
+.carousel-caption {
+    color:black;
+    font-weight: 900;
+    background-color: lightgrey;
+    
+}
+
+
+
