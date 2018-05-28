@@ -75,8 +75,14 @@ nav {
 }
 
 #carouseoProjects, #carouselPhotos {
-    width: 80%;
-    margin: 10%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#carouseoProjects {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #carouselPhotos {
@@ -100,33 +106,32 @@ ul {
 }
 
 .about {
-    width: 80%;
+    width: 100%;
     background: linear-gradient(to right,#803F62 , #BC92A4, #DBA08E);
     text-align: center;
     color: black;
-    margin: 10%;
+    margin: 0;
     padding: 20px;
 }
 
 .services {
-    width: 80%;
+    width: 100%;
     background: linear-gradient(to right,#803F62 , #BC92A4, #DBA08E);
     text-align: center;
     color: black;
-    margin: 10%;
+    margin: 0;
     padding: 20px;
 }
 
-.contact {
-    margin: 0px;
-    padding: 0px;
-}
 
 .contact {
     min-height: 200px;
     background: linear-gradient(to right,#AFB2AA , #BC92A4, #042335);
     color: black;
     text-align: center;
+    margin: 0px;
+    margin-top: 30px;
+    padding: 0px;
 }
 
 .footer {
