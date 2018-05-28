@@ -1,5 +1,5 @@
 body {
-    background-color: #0071bc;
+    background: linear-gradient(to right,#000813 , #042335);
 }
 
 .container {
@@ -26,7 +26,8 @@ nav {
 }
 
 .navbar {
-    background-color: white;
+   /* background: linear-gradient(to right,#AFB2AA , #BC92A4, #042335); */
+    background-color: #AFB2AA;
     padding-left: 3px;
     padding-right: 3px;
 
@@ -40,15 +41,25 @@ nav {
 
 .navbar-toggler {
     margin-top: 13px;
-    border: none;   
+    border: none;
+
 }
 
-.navbar-toggler:actibe {
+.navbar-toggler:active {
     border:none;
 }
 
+
 #logo {
     margin-right: 5px;
+}
+
+.carousel-item {
+    background: linear-gradient(to right,#AFB2AA , #BC92A4, #042335);
+}
+
+.d-block {
+    opacity: 0.7;
 }
 
 
@@ -59,14 +70,14 @@ nav {
     
 }
 
-.card-deck {
-
-}
 
 .card {
+    width: 30%;
+    padding-top: 30%;
     border: none;
-    border-radius: 0px;
+    border-radius: 180px;
     margin-bottom: 30px;
+    background: linear-gradient(to right,#803F62 , #BC92A4, #DBA08E);
 }
 
 
@@ -82,17 +93,24 @@ ul {
 }
 
 .about {
-    background-color: #FA9D9B;
+    width: 80%;
+    background: linear-gradient(to right,#803F62 , #BC92A4, #DBA08E);
     text-align: center;
+    color: black;
+    margin: 10%;
+    padding: 20px;
 }
 
 .services {
-    background-color: #198A93;
+    width: 80%;
+    background: linear-gradient(to right,#803F62 , #BC92A4, #DBA08E);
     text-align: center;
+    color: black;
+    margin: 10%;
+    padding: 20px;
 }
 
 .contact {
-    background-color: white;
     margin: 0px;
     padding: 0px;
 }
@@ -100,6 +118,8 @@ ul {
 .footer {
     padding: 0px;
     margin: 0px;
+    background: linear-gradient(to right,#AFB2AA , #BC92A4, #042335);
+    color: black;
 }
 
 @media only screen and (min-width: 800px) {
