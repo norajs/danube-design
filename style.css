@@ -4,7 +4,6 @@ body {
 
 .container {
     padding: 0;
-
 }
 
 nav {
@@ -26,8 +25,7 @@ nav {
 }
 
 .navbar {
-   /* background: linear-gradient(to right,#AFB2AA , #BC92A4, #042335); */
-    background-color: #AFB2AA;
+    background: linear-gradient(to right,#AFB2AA , #BC92A4, #042335);
     padding-left: 3px;
     padding-right: 3px;
 
@@ -54,12 +52,13 @@ nav {
     margin-right: 5px;
 }
 
-.carousel-item {
+.photos {
     background: linear-gradient(to right,#AFB2AA , #BC92A4, #042335);
 }
 
 .d-block {
     opacity: 0.7;
+    max-height: 250px;
 }
 
 
@@ -70,22 +69,30 @@ nav {
     
 }
 
+.carousel slide, .carousel-inner, .carousel-item {
+    padding: 0;
+    margin: 0;
+}
+
+#carouseoProjects, #carouselPhotos {
+    width: 80%;
+    margin: 10%;
+}
+
+#carouselPhotos {
+    max-height: 250px;
+}
+
 
 .card {
-    width: 30%;
-    padding-top: 30%;
+    width: 50%;
+    padding-top: 80%;
+    height: 100px;
     border: none;
-    border-radius: 180px;
-    margin-bottom: 30px;
+    margin-left: 25%;
     background: linear-gradient(to right,#803F62 , #BC92A4, #DBA08E);
 }
 
-
-.card-img {
-    width: 100%;
-    height: 100%;
-    border-radius: 0px;
-}
 
 ul {
     margin: 0;
