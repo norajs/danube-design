@@ -122,11 +122,18 @@ ul {
     padding: 0px;
 }
 
+.contact {
+    min-height: 200px;
+    background: linear-gradient(to right,#AFB2AA , #BC92A4, #042335);
+    color: black;
+    text-align: center;
+}
+
 .footer {
     padding: 0px;
     margin: 0px;
-    background: linear-gradient(to right,#AFB2AA , #BC92A4, #042335);
-    color: black;
+
+
 }
 
 @media only screen and (min-width: 800px) {
