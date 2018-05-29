@@ -1,18 +1,38 @@
-body {
+html,body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
     background: linear-gradient(to right,#000813 , #042335);
 }
 
 .container {
     padding: 0;
+    border: 2px solid green;
 }
 
-.navbar-top {
+.container-fluid {
+    padding: 0;
+
+}
+
+.navFixed {
+    position: fixed;
+    height: 120px;
     width: 100%;
-    height: 3em;
-    color: lightgrey;
-    font-size: 12px;
-    padding: 1em;
-    margin-bottom: 1em;
+    z-index:1;
+}
+
+.navi {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.firstDiv {
+    height: 30px;
+    background-color: #AFB2AA;
+    padding: 4px;
+    font-size: 14px;
 }
 
 .btn {
@@ -33,20 +53,10 @@ body {
     color: lightgrey;
 }
 
-
-nav {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.navbar {
+.secondDiv {
+    min-height: 50px;
     background: linear-gradient(to right,#AFB2AA , #BC92A4, #042335);
-    padding-left: 3px;
-    padding-right: 3px;
 }
-
 
 .navbar-brand {
     padding-left: 0px;
@@ -54,20 +64,36 @@ nav {
     margin-right:0px;
 }
 
-.navbar-toggler {
-    margin-top: 13px;
-    border: none;
 
+.navbar-toggler-icon {
+    margin-top: 9px;
 }
 
-.navbar-toggler:active {
-    border:none;
+.navbar-toggler-icon:active {
+    display: inline-block;
 }
 
 
 #logo {
     margin-right: 5px;
 }
+
+
+
+.thirdDiv {
+    background-color: rgb(175, 178, 170, 0.1);
+    height: 290px;
+    text-align: center;
+    color: black;
+    padding-top: calc(100px + 1em);
+    padding-bottom: 1em;
+    margin-bottom: 20px;
+}
+
+
+
+
+
 
 .row {
     margin: 0;
@@ -79,21 +105,9 @@ nav {
     padding:0px;
 }
 
-
-
-h1 {
-    background-color: rgb(175, 178, 170, 0.1);
-    width: 100%;
-    min-height: 200px;
-    text-align: center;
-    color: black;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    margin-bottom: 20px;
-}
-
 .photos {
     background: linear-gradient(to right,#AFB2AA , #BC92A4, #042335);
+
 }
 
 .d-block {
@@ -123,6 +137,7 @@ h1 {
 #carouselPhotos {
     max-height: 250px;
     margin-bottom: 20px;
+    z-index:0;
 }
 
 #carouseoProjects {
@@ -185,8 +200,6 @@ ul {
 }
 
 @media only screen and (min-width: 800px) {
-    .container {
 
-    }
 }
 
