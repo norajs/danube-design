@@ -92,7 +92,7 @@ html,body {
     height: 290px;
     text-align: center;
     color: black;
-    padding-top: calc(100px + 1em);
+    padding-top: calc(110px + 1em);
     padding-bottom: 1em;
     margin-bottom: 20px;
 }
@@ -147,9 +147,10 @@ html,body {
     z-index:0;
 }
 
-#carouseoProjects {
+#carouselProjects {
     margin-top: 30px;
-    margin-bottom: 30px;
+
+    padding-bottom: 30px;
 }
 
 .card {
@@ -162,10 +163,39 @@ html,body {
 }
 
 
-ul {
-    margin: 0;
-    padding: 0;
+.cardMini {
+    width:50px;
+    height:50px;
+    background: linear-gradient(to right,rgba(128, 63, 98, 0.4) , rgba(188, 146, 164, 0.4), rgba(219, 160, 142, 0.4));
+
+
 }
+
+#carouselProjects .list-inline {
+    white-space:nowrap;
+    overflow-x:auto;
+}
+
+#carouselProjects .carousel-indicators {
+    position: static;
+    left: initial;
+    width: initial;
+
+
+
+}
+
+#carouselProjects .carousel-indicators > li {
+    width: 50px;
+    height: 50px;
+    text-indent: initial;
+    margin-right: 50px;
+}
+
+#carouselProjects .carousel-indicators > li.active .cardMini {
+    opacity: 0.7;
+}
+
 
 .about {
     width: 100%;
@@ -174,6 +204,7 @@ ul {
     color: black;
     margin: 0;
     padding: 20px;
+
 }
 
 .services {
@@ -183,6 +214,7 @@ ul {
     color: black;
     margin: 0;
     padding: 20px;
+    margin-top: 60px;
 }
 
 
