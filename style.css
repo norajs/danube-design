@@ -2,8 +2,9 @@ html,body {
     width: 100%;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #051A13, #0E7025);
-    background: linear-gradient(to right, rgba(5,26,19, 0.6), rgba(14,112,37, 0.6));
+    /*background: linear-gradient(to right, #051A13, #0E7025);
+    background: linear-gradient(to right, rgba(5,26,19), rgba(14,112,37)); */
+    background-color: #b4ac99;
 }
 
 .container {
@@ -95,7 +96,8 @@ html,body {
 
 
 .thirdDiv {
-    background-color: rgba(219,81,45, 0.4);
+    /*background-color: rgba(219,81,45, 0.4);*/
+    background: linear-gradient(to right, rgba(5,26,19, 0.4), rgba(14,112,37, 0.4));
    /* background: linear-gradient(to right,rgba(180,172,153, 0.4) , rgba(21,129,139, 0.4), rgba(21,129,139, 0.4), rgba(4,55,72, 0.4), rgba(4,55,72, 0.4), rgba(180,172,153, 0.4) ); */
     height: 290px;
     text-align: center;
