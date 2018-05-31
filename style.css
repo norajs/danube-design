@@ -2,7 +2,8 @@ html,body {
     width: 100%;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right,#000813 , #042335);
+    background: linear-gradient(to right, #051A13, #0E7025);
+    background: linear-gradient(to right, rgba(5,26,19, 0.6), rgba(14,112,37, 0.6));
 }
 
 .container {
@@ -28,10 +29,12 @@ html,body {
 
 .firstDiv {
     height: 30px;
-    background-color: #AFB2AA;
+    background-color: black;
     padding-top: 4px;
     padding-bottom: 4px;
     font-size: 14px;
+    color: #b4ac99;
+    font-weight: 400;
 }
 
 .btn {
@@ -39,8 +42,8 @@ html,body {
     font-size: 16px;
     min-width: 100px;
     padding: 0;
-    background-color: lightgrey;
-    border: lightgrey;
+    background-color: #b4ac99;
+    border: #b4ac99;
     color: black;
     font-weight: bold;
     border-radius: 0;
@@ -54,7 +57,11 @@ html,body {
 
 .secondDiv {
     min-height: 50px;
-    background: linear-gradient(to right,#803F62 , #BC92A4, #DBA08E);
+    background-color: #DB512D;
+}
+
+.navbar-collapse .navbar-nav .nav-item {
+    color: black;
 }
 
 .navbar-brand {
@@ -88,7 +95,8 @@ html,body {
 
 
 .thirdDiv {
-    background-color: rgb(175, 178, 170, 0.1);
+    background-color: rgba(219,81,45, 0.4);
+   /* background: linear-gradient(to right,rgba(180,172,153, 0.4) , rgba(21,129,139, 0.4), rgba(21,129,139, 0.4), rgba(4,55,72, 0.4), rgba(4,55,72, 0.4), rgba(180,172,153, 0.4) ); */
     height: 290px;
     text-align: center;
     color: black;
@@ -113,12 +121,12 @@ html,body {
 }
 
 .photos {
-    background: linear-gradient(to right,#AFB2AA , #BC92A4, #042335);
+    background: linear-gradient(to right,#b4ac99 , #15818b, #15818b, #043748, #043748, #b4ac99 );
 
 }
 
 .d-block {
-    opacity: 0.7;
+    opacity: 0.5;
     max-height: 270px;
 }
 
@@ -154,19 +162,19 @@ html,body {
 }
 
 .card {
-    width: 60%;
-    padding-top: 60%;
+    width: 40%;
+    padding-top: 40%;
     height: 100px;
     border: none;
-    margin-left: 20%;
-    background: linear-gradient(to right,rgba(128, 63, 98, 0.4) , rgba(188, 146, 164, 0.4), rgba(219, 160, 142, 0.4));
+    margin-left: 30%;
+    background: linear-gradient(to right,#b4ac99 , #15818b, #15818b, #043748, #043748, #b4ac99 );
 }
 
 
 .cardMini {
     width:50px;
     height:50px;
-    background: linear-gradient(to right,rgba(128, 63, 98, 0.4) , rgba(188, 146, 164, 0.4), rgba(219, 160, 142, 0.4));
+    background: linear-gradient(to right,#b4ac99 , #15818b, #15818b, #043748, #043748, #b4ac99 );
 
 
 }
@@ -199,7 +207,7 @@ html,body {
 
 .about {
     width: 100%;
-    background: linear-gradient(to right,rgba(128, 63, 98, 0.4) , rgba(188, 146, 164, 0.4), rgba(219, 160, 142, 0.4));
+    background: linear-gradient(to right,#b4ac99 , #15818b, #15818b, #043748, #043748, #b4ac99 );
     text-align: center;
     color: black;
     margin: 0;
@@ -209,7 +217,7 @@ html,body {
 
 .services {
     width: 100%;
-    background: linear-gradient(to right,rgba(128, 63, 98, 0.4) , rgba(188, 146, 164, 0.4), rgba(219, 160, 142, 0.4));
+    background: linear-gradient(to right,#b4ac99 , #15818b, #15818b, #043748, #043748, #b4ac99 );
     text-align: center;
     color: black;
     margin: 0;
@@ -217,11 +225,12 @@ html,body {
     margin-top: 60px;
 }
 
+/* DB512D */
 
 .contact {
     min-height: 200px;
     min-width: 100%;
-    background: linear-gradient(to right,#803F62 , #BC92A4, #DBA08E);
+    background-color: rgba(219,81,45, 0.4);
     color: black;
     margin: 0px;
     margin-top: 30px;
