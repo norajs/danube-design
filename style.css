@@ -106,7 +106,7 @@ html,body {
     padding: 0;
 }
 
-.col-md-6 {
+.col-lg-6 {
     padding: 0;
     margin: 0;
 }
@@ -202,14 +202,35 @@ html,body {
 
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 765px) {
+
+    #carouselPhotos, .photos {
+        height: 400px;
+        margin-bottom: 30px;
+    }
+
+    .d-block {
+        margin: 0;
+        height: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 1000px) {
+    #carouselPhotos, carousel-inner, .photos {
+        height: 100%;
+        margin: 0;
+    }
+
     .about {
+        margin: 0;
+        padding: 0;
         margin-left: 20px;
     }
 
     .d-block {
-        height: 100%;
-        margin-bottom: 0;
+        margin: 0;
+
     }
 }
 
