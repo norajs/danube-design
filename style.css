@@ -147,6 +147,24 @@ html,body {
 
 }
 
+/* Featured Projects text */
+
+.featured {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.text {
+    margin: 0;
+    text-align: center;
+}
+
+.arrow {
+    font-size: 36px;
+    margin-top: 10px;
+}
+
 /* Project carousel */
 
 .projects {
