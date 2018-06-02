@@ -2,13 +2,7 @@ html,body {
     width: 100%;
     margin: 0;
     padding: 0;
-    /*background: linear-gradient(to right, #051A13, #0E7025);
-    background: linear-gradient(to right, rgba(5,26,19), rgba(14,112,37)); */
-    background-color: #b4ac99;
-}
-
-.container {
-    padding: 0;
+    background-color: white;
 }
 
 .container-fluid {
@@ -34,7 +28,7 @@ html,body {
     padding-top: 4px;
     padding-bottom: 4px;
     font-size: 14px;
-    color: #b4ac99;
+    color: white;
     font-weight: 400;
 }
 
@@ -43,8 +37,8 @@ html,body {
     font-size: 16px;
     min-width: 100px;
     padding: 0;
-    background-color: #b4ac99;
-    border: #b4ac99;
+    background-color: white;
+    border: white;
     color: black;
     font-weight: bold;
     border-radius: 0;
@@ -53,12 +47,12 @@ html,body {
 .btn:hover {
     background: rgb(0, 0, 0); /* Fall-back for browsers that don't                                 support rgba */
     background: rgba(54, 25, 25, 0);
-    color: lightgrey;
+    color: white;
 }
 
 .secondDiv {
     min-height: 50px;
-    background-color: #DB512D;
+    background-color: white;
 }
 
 .navbar-collapse .navbar-nav .nav-item {
@@ -96,9 +90,8 @@ html,body {
 
 
 .thirdDiv {
-    /*background-color: rgba(219,81,45, 0.4);*/
-    background: linear-gradient(to right, rgba(5,26,19, 0.4), rgba(14,112,37, 0.4));
-   /* background: linear-gradient(to right,rgba(180,172,153, 0.4) , rgba(21,129,139, 0.4), rgba(21,129,139, 0.4), rgba(4,55,72, 0.4), rgba(4,55,72, 0.4), rgba(180,172,153, 0.4) ); */
+
+    background-color: #0071BC;
     height: 290px;
     text-align: center;
     color: black;
@@ -108,13 +101,14 @@ html,body {
 }
 
 
-
-
-
-
 .row {
     margin: 0;
-    margin-bottom: 30px;
+    padding: 0;
+}
+
+.col-md-6 {
+    padding: 0;
+    margin: 0;
 }
 
 .col-12 {
@@ -122,118 +116,80 @@ html,body {
     padding:0px;
 }
 
-.photos {
-    background: linear-gradient(to right,#b4ac99 , #15818b, #15818b, #043748, #043748, #b4ac99 );
-
-}
-
-.d-block {
-    opacity: 0.5;
-    max-height: 270px;
-}
-
+/* Photo carousel */
 
 .carousel-caption {
     color:black;
     font-weight: 900;
-    background-color: lightgrey;
-    
+    background-color: white;
 }
 
-.carousel slide, .carousel-inner, .carousel-item {
-    padding: 0;
-    margin: 0;
-}
-
-#carouseoProjects, #carouselPhotos {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
 
 #carouselPhotos {
-    max-height: 250px;
-    margin-bottom: 20px;
     z-index:0;
 }
 
-#carouselProjects {
-    margin-top: 30px;
-
-    padding-bottom: 30px;
+.d-block {
+    height: 270px;
+    margin-bottom: 30px;
 }
 
-.card {
-    width: 40%;
-    padding-top: 40%;
-    height: 100px;
-    border: none;
-    margin-left: 30%;
-    background: linear-gradient(to right,#b4ac99 , #15818b, #15818b, #043748, #043748, #b4ac99 );
-}
+/* About section */
 
-
-.cardMini {
-    width:50px;
-    height:50px;
-    background: linear-gradient(to right,#b4ac99 , #15818b, #15818b, #043748, #043748, #b4ac99 );
-
-
-}
-
-#carouselProjects .list-inline {
-    white-space:nowrap;
-    overflow-x:auto;
-}
-
-#carouselProjects .carousel-indicators {
-    position: static;
-    left: initial;
-    width: initial;
-
-
-
-}
-
-#carouselProjects .carousel-indicators > li {
-    width: 50px;
-    height: 50px;
-    text-indent: initial;
-    margin-right: 50px;
-}
-
-#carouselProjects .carousel-indicators > li.active .cardMini {
-    opacity: 0.7;
-}
 
 
 .about {
-    width: 100%;
-    background: linear-gradient(to right,#b4ac99 , #15818b, #15818b, #043748, #043748, #b4ac99 );
+    height: 100%;
+    background-color: #0071BC;
     text-align: center;
     color: black;
     margin: 0;
-    padding: 20px;
 
 }
+
+/* Project carousel */
+
+.projects {
+    width: 100%;
+    /*padding-top: 40%;*/
+    height: 200px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 0;
+    background-color: #0071BC;
+}
+
+.card {
+    background-color: #0071BC;
+    width: 33.33%;
+    text-align: center;
+    border-radius: 0;
+    margin-right: 1px;
+
+}
+
+/* Services */
 
 .services {
     width: 100%;
-    background: linear-gradient(to right,#b4ac99 , #15818b, #15818b, #043748, #043748, #b4ac99 );
+    background-color:#0071BC;
     text-align: center;
     color: black;
     margin: 0;
     padding: 20px;
-    margin-top: 60px;
+    margin-top: 0px;
 }
 
-/* DB512D */
+
+/* Contact and footer */
 
 .contact {
     min-height: 200px;
     min-width: 100%;
-    background-color: rgba(219,81,45, 0.4);
-    color: black;
+    background-color: #0071BC;
+    background-color: black;
+    color: white;
     margin: 0px;
     margin-top: 30px;
     padding: 0px;
@@ -247,6 +203,13 @@ html,body {
 }
 
 @media only screen and (min-width: 800px) {
+    .about {
+        margin-left: 20px;
+    }
 
+    .d-block {
+        height: 100%;
+        margin-bottom: 0;
+    }
 }
 
