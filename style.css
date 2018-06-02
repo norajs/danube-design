@@ -69,7 +69,8 @@ html,body {
 .navbar-toggler {
     padding: 0;
     margin-top: 13px;
-    border: 1px solid black;
+    border: 0px;
+    border-radius: 0px;
 }
 
 .navbar-toggler-icon {
@@ -127,16 +128,21 @@ html,body {
 
 #carouselPhotos {
     z-index:0;
-
 }
 
 .d-block {
     height: 270px;
     margin-bottom: 30px;
-
 }
 
 /* About section */
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #0071BC;
+    border-radius: 50%;
+    border: 2px solid #0071BC;
+}
+
 
 
 
