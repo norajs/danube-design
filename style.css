@@ -127,11 +127,13 @@ html,body {
 
 #carouselPhotos {
     z-index:0;
+
 }
 
 .d-block {
     height: 270px;
     margin-bottom: 30px;
+
 }
 
 /* About section */
@@ -240,6 +242,10 @@ picture {
         margin: 0;
         height: 100%;
     }
+
+    .projects {
+    height: 250px;
+    }
 }
 
 
@@ -258,6 +264,10 @@ picture {
     .d-block {
         margin: 0;
 
+    }
+
+    .projects {
+    height: 300px;
     }
 }
 
